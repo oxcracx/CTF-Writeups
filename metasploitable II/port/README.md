@@ -26,7 +26,7 @@ used netdiscover to scan and identify live hosts on the network. Purpose of this
 #### Network discovery
 used nmap to scan the network and identify operating system and services running on the operating system.
 
-"nmap -o -sV 192.168.1.81"
+"nmap -O -sV 192.168.1.81"
 ##### Important open ports found :
 <img width="720" height="405" alt="image" src="https://github.com/user-attachments/assets/478fbf33-6e08-4ea8-8f36-931816df3a9c" />
 
