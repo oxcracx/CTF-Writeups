@@ -1,4 +1,4 @@
-<img width="959" height="1049" alt="image" src="https://github.com/user-attachments/assets/2e984ee0-afb9-4be2-9006-e960db6a728d" />## Introduction
+## Introduction
 #### Purpose of the Report
 This walk-through demonstrates how to identify vulnerabilities, exploit them, and gain access to website, using error based SQL injection.
 
